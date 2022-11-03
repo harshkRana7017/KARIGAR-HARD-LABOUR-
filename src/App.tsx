@@ -1,7 +1,7 @@
-import HomePage from 'HomePage';
-import JobsPage from 'JobsPage';
-import MainLayout from 'MainLayout';
-import PostJobsPage from 'PostJobsPage';
+import HomePage from 'shared-resources/components/HomePage';
+import JobsPage from 'shared-resources/components/JobsPage';
+import MainLayout from 'shared-resources/components/MainLayout';
+import PostJobsPage from 'shared-resources/components/PostJobsPage';
 import React from 'react';
 import {  Route, Routes } from 'react-router-dom';
 

@@ -5,6 +5,6 @@ type  NavBarTabsProps = {
 };
 
 const  NavBarTabs: FC< NavBarTabsProps> = ({children}) => <>
-    <div className='font-bold bg-blue-200 w-24 p-2 rounded-lg'>{children}</div>
+    <div className=' bg-cyan-700 w-24 p-2 rounded-lg '>{children}</div>
 </>;
 export default memo( NavBarTabs);
