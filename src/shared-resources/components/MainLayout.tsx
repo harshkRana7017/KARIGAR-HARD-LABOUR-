@@ -9,7 +9,7 @@ const MainLayout: FC = () => (
         <NavBarTabs>HomePage</NavBarTabs>
       </Link>
       <Link to='/jobs'>
-        <NavBarTabs>Jobs</NavBarTabs>
+        <NavBarTabs>post labor</NavBarTabs>
       </Link>
       <Link to='/postJobs'>
         <NavBarTabs>Post Jobs</NavBarTabs>

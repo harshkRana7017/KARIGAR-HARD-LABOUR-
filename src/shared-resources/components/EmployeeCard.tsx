@@ -20,10 +20,10 @@ const EmployeeCard: FC<EmployeeCardProps> = (props) => {
         {/* to be replaced by image tag   */}
         <div className='bg-gray-400 rounded-full w-32 h-32 mx-auto  border-4  border-cyan-700' />
         <div className=' p-2 flex flex-col space-y-2 items-center text-xl  rounded-lg'>
-          <h1 className='text-cyan-700'>Name{name}</h1>
-          <h1>Age{age}</h1>
-          <h1>Sex{sex}</h1>
-          <h1>karigarType{karigarType}</h1>
+          <h1 className='text-cyan-700'>Name : {name}</h1>
+          <h1>Age :{age}</h1>
+          <h1>Sex : {sex}</h1>
+          <h1>karigarType : {karigarType}</h1>
         </div>
       </div>
     </div>

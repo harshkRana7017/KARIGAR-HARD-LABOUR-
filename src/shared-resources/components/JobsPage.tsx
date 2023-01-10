@@ -1,24 +1,11 @@
+import AddKarigarForm from 'Forms/AddKarigarForm';
 import React, { FC, memo } from 'react';
 
-const JobsPage: FC = () => (
-  <>
-    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
-      <path
-        fill='#334155'
-        fillOpacity='1'
-        d='M0,256L40,213.3C80,171,160,85,240,64C320,43,400,85,480,133.3C560,181,640,235,720,266.7C800,299,880,309,960,261.3C1040,213,1120,107,1200,101.3C1280,96,1360,192,1400,240L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z'
-      />
-    </svg>
-    <div className='h-1/2 w-full bg-slate-700 relative '>
-      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1360 320'>
-        <path
-          fill='#fff'
-          fillOpacity='1'
-          d='M0,256L40,213.3C80,171,160,85,240,64C320,43,400,85,480,133.3C560,181,640,235,720,266.7C800,299,880,309,960,261.3C1040,213,1120,107,1200,101.3C1280,96,1360,192,1400,240L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z'
-        />
-      </svg>
-    </div>
-    <div />;
-  </>
+type JobsPageProps = {};
+
+const JobsPage: FC<JobsPageProps> = () => (
+  <div className='p-4'>
+    <AddKarigarForm className='mx-auto' />
+  </div>
 );
 export default memo(JobsPage);

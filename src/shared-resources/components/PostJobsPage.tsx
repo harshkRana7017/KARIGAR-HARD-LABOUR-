@@ -1,8 +1,11 @@
 import PostJobForm from 'Forms/PostJobForm';
 import React, { FC, memo } from 'react';
 
-type  PostJobsPageProps = {};
+type PostJobsPageProps = {};
 
-const  PostJobsPage: FC< PostJobsPageProps> = (props) => <div className='p-4'>
-<PostJobForm className='mx-auto'/></div>;
-export default memo( PostJobsPage);
+const PostJobsPage: FC<PostJobsPageProps> = () => (
+  <div className='p-4'>
+    <PostJobForm className='mx-auto' />
+  </div>
+);
+export default memo(PostJobsPage);
